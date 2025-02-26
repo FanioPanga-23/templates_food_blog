@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt, en, pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fânio Panga">
+    <meta name="keywords" content="HTML, CSS, JS, Food, Templates Food, Blog. Simple template for food blog">
+    <meta name="description" content="A simples template for a food blog, builted with HTML, CSS and some JS">
+    <meta http-equiv="cache-controle" content="no-cache">
+    <link rel="canonical" href="">
+    <meta name="robots" content="index, follow">
+    <meta property="og:locale" content="pt_AO">
+    <meta property="og:title" content="Template Food Blog">
+    <meta property="og:description" content="A simple template for a food blog">
+    <meta property="og:url" content="">
+    <link rel="shortcut icon" href="./image/icons/dessert-30.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mobile_small_screen.css">
+    <link rel="stylesheet" href="./css/desktop_larger_screen.css" media="screen and (width > 600px)">
+    <title>Food Blog</title>
+</head>
+<body>
+    <header>
+        <div onclick="openMenu()" class="material-icons button" id="btnOpen">menu</div>
+        <nav class="hidden-menu" id="menuHid">
+            <div onclick="closeMenu()" class="hidden-menu-item button">Close Menu</div>
+            <a href="#food" class="hidden-menu-item">Food</a>
+            <a href="#about" class="hidden-menu-item">About</a>
+        </nav>
+        <h1 class="nav-item">My Food</h1>
+        <h1 class="nav-item">Mail</h1>
+    </header>
+    <main>
+        <section class="Food main-item" id="food">
+            <article class="container-food">
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/sandwich.jpg" alt="Sandwich"></div>
+                    <h2 class="food-heading">The Perfect Sandwich, A Real NYC Classic</h2>
+                    <p class="food-desc">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/steak.jpg" alt="steak"></div>
+                    <h2 class="food-heading">Let Me Tell You About This Steak</h2>
+                    <p class="food-desc">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </section>
+                
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/cherries.jpg" alt="cherries"></div>
+                    <h2 class="food-heading">Cherries, interrupted</h2>
+                    <p class="food-desc">Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/wine.jpg" alt="wine"></div>
+                    <h2 class="food-heading">Once Again, Robust Wine and Vegetable Pasta</h2>
+                    <p class="food-desc">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/popsicle.jpg" alt="popsicle"></div>
+                    <h2 class="food-heading">All I Need Is A Popsicle</h2>
+                    <p class="food-desc">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/salmon.jpg" alt="salmon"></div>
+                    <h2 class="food-heading">Salmon For Your Skin</h2>
+                    <p class="food-desc">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/sandwich.jpg" alt="Sandwich"></div>
+                    <h2 class="food-heading">The Perfect Sandwich, A Real NYC Classic</h2>
+                    <p class="food-desc">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+                </section>
+                <section class="food-item">
+                    <div class="img-box"><img src="./image/croissant.jpg" alt="Sandwich"></div>
+                    <h2 class="food-heading">Le French</h2>
+                    <p class="food-desc">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </section>
+            </article>
+
+            <section class="pagination">
+                <a href="#" class="pg-item">&laquo;</a>
+                <a href="#" class="pg-item pg-alone" style="padding: 10px 16px;">1</a>
+                <a href="#" class="pg-item">2</a>
+                <a href="#" class="pg-item">3</a>
+                <a href="#" class="pg-item">4</a>
+                <a href="#" class="pg-item">&raquo;</a>
+            </section>
+        </section>
+        
+        <hr>
+
+        <section class="About main-item" id="about">
+            <h1 class="about-heading">About Me, The Food Man</h1>
+            <div class="img-box"><img src="./image/chef.jpg" alt="Kitchen chef"></div>
+            <h2 class="about-heading2">I am Who I Am!</h2>
+            <p class="about-title"><em>With Passion For Real, Good Food</em></p>
+            <p class="about-desc">
+                Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+        </section>
+
+        <hr>
+
+        <section class="footer-container main-item">
+            <footer class="footer-item">
+                <h1 class="footer-heading">Footer</h1>
+                <p class="footer-desc">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="footer-author">Powered by <a href="https://github.com/FanioPanga-23/"></a></p>
+            </footer>
+
+            <section class="blog-spot footer-item">
+                <h1 class="footer-heading">Blog Spot</h1>
+                <section class="spots">
+                    <div class="spot-item">
+                        <div class="spot-img spot-son"><img src="./image/workshop.jpg" alt="workshop" style="width: 50px;"></div>
+                        <div class="spot-son">
+                            <h3 class="spot-heading">Lorem</h3>
+                            <p class="spot-p">Sed mattis nunc</p>
+                        </div>
+                    </div>
+
+                    <div class="spot-item">
+                        <div class="spot-img spot-son"><img src="./image/gondol.jpg" alt="Gondol" style="width: 50px;"></div>
+                        <div class="spot-son">
+                            <h3 class="spot-heading">Ipsum</h3>
+                            <p class="spot-p">Praes tinci sed</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="popular-tags footer-item">
+                    <h1 class="footer-heading">Popular Tags</h1>
+                    <div class="posts-container">
+                        <span class="posts-item checked">Travel</span>
+                        <span class="posts-item">New York</span>
+                        <span class="posts-item">Dinner</span>
+                        <span class="posts-item">Salmon</span>
+                        <span class="posts-item">France</span>
+                        <span class="posts-item">Drinks</span>
+                        <span class="posts-item">Ideas</span>
+                        <span class="posts-item">Flavors</span>
+                        <span class="posts-item">Cuisine</span>
+                        <span class="posts-item">Chicken</span>
+                        <span class="posts-item">Dressing</span>
+                        <span class="posts-item">Fried</span>
+                        <span class="posts-item">Fish</span>
+                        <span class="posts-item">Duck</span>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="./js/closing_menu.js">
+    </script>
+</body>
+</html>

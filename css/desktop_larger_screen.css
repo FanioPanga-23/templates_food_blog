@@ -1,0 +1,21 @@
+img {max-width: 100%;}
+
+article.container-food {
+    justify-content: space-between;
+}
+
+section.food-item {
+    width: 23.56%;
+    margin-bottom: 25px;
+}
+
+.footer-item {
+    width: 30%;
+}
+
+@media screen and (width > 1210px) {
+    header {
+        max-width: 87%;
+        margin: 0 auto;
+    }
+}
