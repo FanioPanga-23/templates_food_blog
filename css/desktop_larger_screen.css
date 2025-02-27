@@ -1,5 +1,13 @@
+/* ALL IMAGES */
 img {max-width: 100%;}
 
+/* CHEF BOX IMG */
+.box-img-chef {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* FOOD SECTION */
 article.container-food {
     justify-content: space-between;
 }
@@ -9,9 +17,7 @@ section.food-item {
     margin-bottom: 25px;
 }
 
-.footer-item {
-    width: 30%;
-}
+.footer-item {width: calc(100% / 3.3);}
 
 @media screen and (width > 1210px) {
     header {

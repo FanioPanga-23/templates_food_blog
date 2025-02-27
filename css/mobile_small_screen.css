@@ -12,21 +12,21 @@
 
 @font-face {
     font-family: 'karmaBol';
-    src: url(../fonts/Karma/Raleway/static/Raleway-Regular.ttf) format('truetype');
+    src: url(../fonts/Karma/Raleway/static/Raleway-Regular.ttf);
 }
 
 :root {
     --font1: 'karmaReg';
     --font2: 'karmaBol';
     --font3: 'karmaMid';
-    --color1: #9c9c9c;
+    --color1: #c7c7c7;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: var(--font1);
+    font-family: var(--font3);
 }
 
 header {
@@ -55,8 +55,9 @@ header {
 }
 
 .nav-item, .button {
-    padding: 16px 0;
-    font-size: 1.3em;
+    padding: 18px 0 16px;
+    font-size: 1.5em;
+    font-weight: normal;
 }
 
 .hidden-menu-item {
@@ -75,6 +76,7 @@ header {
     cursor: pointer;
 }
 
+/* ALL IMAGES */
 img {
     width: 100%;
     height: auto;
@@ -147,9 +149,7 @@ hr {
 
 /* ABOUT */
 
-section.About {
-    text-align: center;
-}
+section.About {text-align: center;}
 
 h1.about-heading {
     padding: 20px 0 30px;
@@ -177,6 +177,7 @@ p.about-desc {
 section.footer-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     padding: 30px 0 50px;
 }
 
@@ -192,6 +193,9 @@ p.footer-desc {
     font-size: .94em;
 }
 
+.a-footer {color: #000;}
+.a-footer:hover {color: green;}
+
 .spot-item {
     display: flex;
     padding: 16px 20px;
@@ -200,22 +204,17 @@ p.footer-desc {
 .spot-son {margin-right: 16px;}
 
 .spot-heading {
-    padding: 5px 0 2px;
+    padding: 1px 0 0;
     font-weight: normal;
     font-size: 1em;
 }
 
 .spot-p {
-    padding: 5px 0 2px;
+    padding: 1px 0 0;
     font-size: .89em;
 }
 
-.spot-item:not(:last-child) {
-    border-bottom: 1px solid #d4d4d4;
-}
-
-.posts-item {
-}
+.spot-item:not(:last-child) {border-bottom: 1px solid #d4d4d4;}
 
 .posts-item {
     display: inline-block;
@@ -228,5 +227,5 @@ p.footer-desc {
 
 .checked {
     color: #fff;
-    background-color: #000;    
+    background-color: #000;
 }
