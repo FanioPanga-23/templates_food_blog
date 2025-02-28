@@ -52,12 +52,17 @@ header {
     background-color: #fff;
     box-shadow: 0 0 7px #00000080;
     transition: all .4s ease-in;
+    z-index: 1;
 }
 
 .nav-item, .button {
     padding: 18px 0 16px;
     font-size: 1.5em;
     font-weight: normal;
+}
+
+.btnOpen {
+    padding: 20px 0 16px;
 }
 
 .hidden-menu-item {

@@ -20,13 +20,13 @@
     <title>Food Blog</title>
 </head>
 <body>
+    <nav class="hidden-menu" id="menuHid">
+        <div onclick="closeMenu()" class="hidden-menu-item button">Close Menu</div>
+        <a href="#food" class="hidden-menu-item">Food</a>
+        <a href="#about" class="hidden-menu-item">About</a>
+    </nav>
     <header>
         <div onclick="openMenu()" class="material-icons button" id="btnOpen">menu</div>
-        <nav class="hidden-menu" id="menuHid">
-            <div onclick="closeMenu()" class="hidden-menu-item button">Close Menu</div>
-            <a href="#food" class="hidden-menu-item">Food</a>
-            <a href="#about" class="hidden-menu-item">About</a>
-        </nav>
         <h1 class="nav-item">My Food</h1>
         <h1 class="nav-item">Mail</h1>
     </header>
